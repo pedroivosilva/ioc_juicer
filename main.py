@@ -10,4 +10,4 @@ if __name__ == '__main__':
                            fgt_url=fgt_url,
                            fgt_key=fgt_key)
 
-    print(conn.get_misp_fw_tag_index())
+    iocs_to_fw = conn.get_misp_iocs()
